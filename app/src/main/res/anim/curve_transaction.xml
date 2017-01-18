@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+
+    >
+
+    <objectAnimator
+        android:duration="@integer/morphing_time"
+        android:interpolator="@android:anim/overshoot_interpolator"
+        android:propertyName="pathData"
+        android:valueFrom="m137.5,36
+        c0,0 66.3334,0 122,0
+        c91.9999,0 152,0 152,0
+        c0,0 -2,0 -2,0
+        c0,0 -272,0 -272,0z"
+        android:valueTo="m137.5,36
+        c0,0 66.3334,-4.3332 122,115
+        c91.9999,169.33314 152,22 152,22
+        c0,0 -2,-136 -2,-136
+        c0,0 -272,-1 -272,-1z"
+        android:valueType="pathType" />
+
+
+    <objectAnimator
+        android:duration="@integer/morphing_time"
+        android:propertyName="fillColor"
+        android:valueFrom="@color/colorAccent"
+        android:valueTo="@color/colorPrimary" />
+
+</set>
